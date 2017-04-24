@@ -1,0 +1,137 @@
+.cv{
+	background: #eaeaea;
+
+}
+.container-fluid{
+	max-width: 1000px;
+  margin: 15px auto;
+	background-color: #fff;
+	border-color: 2px yellow solid;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.30), 0 0 40px rgba(0, 0, 0, 0.10) inset;
+
+}
+section{
+	margin: 20px;
+}
+img{
+	height: 200px;
+	width: 180px;
+}
+.name{
+	font-size: 20px;
+	font-weight: 50px;
+}
+.work{
+	font-size: 17px;
+	color: #47d782;
+	font-weight: 50px;
+}
+.img-work{
+height: 20px;
+width: 20px;
+}
+
+.photo{
+	margin: 0 25px 5px 0;
+	float: left;
+	border: 5px #25ac5d solid;
+	padding: 4px; 
+	box-shadow: 10px 0px 0px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		-o-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+		-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);   
+}
+.photo:hover img{
+		box-shadow: 0px 0px 50px #ccc;
+    z-index: 2;
+	    -webkit-transition: all 200ms ease-in;
+	    -webkit-transform: scale(1.5);
+	    -ms-transition: all 200ms ease-in;
+	    -ms-transform: scale(1.5);   
+	    -moz-transition: all 200ms ease-in;
+	    -moz-transform: scale(1.5);
+		  transition: all 200ms ease-in;
+		  transform: scale(1.5);
+}
+
+
+.timeline{
+	border-left:3px #25ac5d solid;
+	padding:1px 20px;
+	margin-left: 15px;
+}
+.text{
+		background-color: #eaeaea;
+		padding-left:10px;
+}
+.circle {
+    width:8%;
+    height:0;
+    padding-bottom: 6%;
+    -moz-border-radius: 6%; 
+    -webkit-border-radius: 6%; 
+    border-radius: 6%;
+    background: #25ac5d;
+    color: #fff;
+    padding-left: 2px;
+
+}
+.circle2 {
+    width:13%;
+    height:0;
+    padding-bottom: 6%;
+    -moz-border-radius: 6%; 
+    -webkit-border-radius: 6%; 
+    border-radius: 6%;
+    background: #25ac5d;
+    color: #fff;
+    padding-left: 2px;
+
+}
+
+
+#myProgress {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  background-color: #ddd;
+  margin: 15px;
+
+}
+
+#myBar {
+  position: absolute;
+  width: 15%;
+  height: 100%;
+  background-color: #47d782;
+  color: #fff;
+   -webkit-animation: myBar 2s;
+  -moz-animation: myBar 2s;
+  animation: myBar 2s;
+  padding-top:5px;
+  padding-left:15px;
+  }
+
+
+@-webkit-keyframes myBar {
+   0% { width: 0; }
+}
+@-moz-keyframes myBar {
+   0% { width: 0; }
+}
+keyframes myBar {
+   0% { width: 0; }
+}
+
+.ez{
+	text-align: center;
+}
+
